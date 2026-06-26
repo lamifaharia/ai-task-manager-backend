@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "name": "Demo User",
+      "email": "user@demo.com",
+      "password": "$2a$10$rQ9J8kFp2vL3mN4oP5qR6u7sT8wX9yZ0aB1cD2eF3gH4iJ5kL6mN",
+      "role": "user",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=user1",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "admin-1",
+      "name": "Admin User",
+      "email": "admin@demo.com",
+      "password": "$2a$10$rQ9J8kFp2vL3mN4oP5qR6u7sT8wX9yZ0aB1cD2eF3gH4iJ5kL6mN",
+      "role": "admin",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin1",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Build landing page",
+      "description": "Create a fully responsive landing page with hero section, features, and testimonials.",
+      "category": "Development",
+      "priority": "High",
+      "status": "In Progress",
+      "dueDate": "2025-02-15",
+      "userId": "user-1",
+      "tags": ["react", "tailwind", "frontend"],
+      "rating": 4,
+      "createdAt": "2025-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Set up Express backend",
+      "description": "Configure Express.js server with REST API endpoints and JWT authentication.",
+      "category": "Backend",
+      "priority": "High",
+      "status": "Done",
+      "dueDate": "2025-01-20",
+      "userId": "user-1",
+      "tags": ["nodejs", "express", "api"],
+      "rating": 5,
+      "createdAt": "2025-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "task-3",
+      "title": "Design database schema",
+      "description": "Plan and implement the data models for users, tasks, and analytics.",
+      "category": "Design",
+      "priority": "Medium",
+      "status": "Todo",
+      "dueDate": "2025-02-01",
+      "userId": "user-1",
+      "tags": ["database", "schema", "planning"],
+      "rating": 3,
+      "createdAt": "2025-01-12T00:00:00.000Z"
+    },
+    {
+      "id": "task-4",
+      "title": "Integrate AI chat assistant",
+      "description": "Add a context-aware AI chatbot using the Anthropic Claude API for task suggestions.",
+      "category": "AI",
+      "priority": "High",
+      "status": "Todo",
+      "dueDate": "2025-02-28",
+      "userId": "admin-1",
+      "tags": ["ai", "claude", "chat"],
+      "rating": 5,
+      "createdAt": "2025-01-14T00:00:00.000Z"
+    },
+    {
+      "id": "task-5",
+      "title": "Write unit tests",
+      "description": "Write comprehensive tests for all API endpoints and React components.",
+      "category": "Testing",
+      "priority": "Medium",
+      "status": "Todo",
+      "dueDate": "2025-03-10",
+      "userId": "admin-1",
+      "tags": ["testing", "jest", "quality"],
+      "rating": 4,
+      "createdAt": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "task-6",
+      "title": "Deploy to production",
+      "description": "Deploy the frontend to Vercel and the backend to Railway with environment variables.",
+      "category": "DevOps",
+      "priority": "Low",
+      "status": "Todo",
+      "dueDate": "2025-03-20",
+      "userId": "admin-1",
+      "tags": ["deployment", "vercel", "railway"],
+      "rating": 4,
+      "createdAt": "2025-01-16T00:00:00.000Z"
+    }
+  ]
+}
